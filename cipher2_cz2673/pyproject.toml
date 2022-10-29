@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cipher2-cz2673"
+version = "0.1.0"
+description = "\"functions from hw 6\""
+authors = ["Camilla Zhang <94077724+camilla-zhang@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cipher2_cz2673"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+sphinx = "^5.3.0"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
